@@ -277,22 +277,6 @@
 				<option><![CDATA[[{"name":"layout-aside-left","label":"좌측","value":"layout-aside-left"}, {"name":"layout-aside-right","label":"우측","value":"layout-aside-right"}]]]></option>
 				<default>layout-aside-right</default>
 			</variable>
-			<variable>
-				<name>instagram-link</name>
-				<label><![CDATA[ 인스타그램 링크 ]]></label>
-				<description><![CDATA[]]></description>
-				<type>STRING</type>
-				<option />
-				<default></default>
-			</variable>
-			<variable>
-				<name>youtube-link</name>
-				<label><![CDATA[ 유튜브 링크 ]]></label>
-				<description><![CDATA[]]></description>
-				<type>STRING</type>
-				<option />
-				<default></default>
-			</variable>
 		</variablegroup>
 		<variablegroup name="푸터">
 			<variable>
