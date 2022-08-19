@@ -17,29 +17,29 @@
 		<email>tjtjdwh5321@naver.com</email>
 	</author>
 	<default>
-		<entriesOnPage>4</entriesOnPage>
-		<entriesOnList>4</entriesOnList>
-		<recentEntries>5</recentEntries>
-		<recentComments>4</recentComments>
-		<recentTrackbacks>4</recentTrackbacks>
-		<itemsOnGuestbook>10</itemsOnGuestbook>
-		<tagsInCloud>30</tagsInCloud>
-		<sortInCloud>3</sortInCloud>
-		<expandComment>1</expandComment>
-		<lengthOfRecentNotice>30</lengthOfRecentNotice>
-		<lengthOfRecentEntry>30</lengthOfRecentEntry>
-		<lengthOfRecentComment>30</lengthOfRecentComment>
-		<lengthOfRecentTrackback>30</lengthOfRecentTrackback>
-		<lengthOfLink>30</lengthOfLink>
-		<showListOnCategory>1</showListOnCategory>
+		<entriesOnPage>3</entriesOnPage> <!--  홈 화면 글 수 -->
+		<entriesOnList>3</entriesOnList> <!-- 글 목록 글 수 -->
+		<recentEntries>3</recentEntries> <!-- 사이드바의 최근글 표시 갯수 -->
+		<recentComments>3</recentComments> <!-- 사이드바의 최근 댓글 표시 갯수 -->
+		<recentTrackbacks>3</recentTrackbacks> <!-- 사이드바의 최근 트랙백 표시 갯수 -->
+		<itemsOnGuestbook>10</itemsOnGuestbook> <!-- 한페이지에 표시될 방명록 갯수 -->
+		<tagsInCloud>30</tagsInCloud> <!--사이드바에 표시될 태그 갯수-->
+		<sortInCloud>3</sortInCloud> <!-- 태그 클라우드 표현 방식 (1:인기도순, 2:이름순, 3:랜덤)-->
+		<expandComment>1</expandComment> <!--댓글영역 표현 방식 (0:감추기, 1:펼치기)-->
+		<lengthOfRecentNotice>30</lengthOfRecentNotice> <!-- 최근 공지 표현될 글자수 -->
+		<lengthOfRecentEntry>30</lengthOfRecentEntry> <!-- 최근 글 표현될 글자수 -->
+		<lengthOfRecentComment>30</lengthOfRecentComment> <!-- 최근 댓글에 표현될 글자수 -->
+		<lengthOfRecentTrackback>30</lengthOfRecentTrackback> <!-- 최근 트랙백에 표현될 글자수 -->
+		<lengthOfLink>30</lengthOfLink> <!-- 링크에 표현될 글자수 -->
+		<showListOnCategory>1</showListOnCategory> <!-- 커버 미사용 홈에서 글 목록 표현(0:내용만, 1:목록만, 2: 내용+목록) -->
 		<showListOnArchive>1</showListOnArchive>
 		<tree>
-			<color>000000</color>
-			<bgColor>ffffff</bgColor>
-			<activeColor>000000</activeColor>
-			<activeBgColor>eeeeee</activeBgColor>
-			<labelLength>27</labelLength>
-			<showValue>0</showValue>
+			<color>000000</color> <!-- 카테고리 글자색 -->
+			<bgColor>ffffff</bgColor> <!-- 카테고리 배경색 -->
+			<activeColor>000000</activeColor> <!-- 선택시 글자색 -->
+			<activeBgColor>eeeeee</activeBgColor> <!-- 표현될 카테고리 글자 수 -->
+			<labelLength>27</labelLength> <!-- 카테고리 글 수 표현(0:숨김, 1:보임) -->
+			<showValue>0</showValue> <!-- 콘텐츠영역 가로 사이즈, 이 사이즈에 맞춰 에디터의 위지윅이 제대로 구현된다. -->
 		</tree>
 		<contentWidth>1920</contentWidth>
 	</default>
@@ -77,7 +77,7 @@
 	</cover>
 	<variables>
 		<variable>
-			<name>logo</name>
+			<name>logo</name> 
 			<label><![CDATA[ 로고(높이 64px) ]]></label>
 			<description><![CDATA[]]></description>
 			<type>IMAGE</type>
@@ -278,40 +278,8 @@
 				<default>layout-aside-right</default>
 			</variable>
 			<variable>
-				<name>facebook-timeline</name>
-				<label><![CDATA[ 페이스북 타임라인 ]]></label>
-				<description><![CDATA[]]></description>
-				<type>STRING</type>
-				<option />
-				<default></default>
-			</variable>
-			<variable>
-				<name>twitter-timeline</name>
-				<label><![CDATA[ 트위터 타임라인 ]]></label>
-				<description><![CDATA[]]></description>
-				<type>STRING</type>
-				<option />
-				<default></default>
-			</variable>
-			<variable>
-				<name>facebook-link</name>
-				<label><![CDATA[ 페이스북 링크 ]]></label>
-				<description><![CDATA[]]></description>
-				<type>STRING</type>
-				<option />
-				<default></default>
-			</variable>
-			<variable>
 				<name>instagram-link</name>
 				<label><![CDATA[ 인스타그램 링크 ]]></label>
-				<description><![CDATA[]]></description>
-				<type>STRING</type>
-				<option />
-				<default></default>
-			</variable>
-			<variable>
-				<name>twitter-link</name>
-				<label><![CDATA[ 트위터 링크 ]]></label>
 				<description><![CDATA[]]></description>
 				<type>STRING</type>
 				<option />
