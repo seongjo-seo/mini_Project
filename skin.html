@@ -23,7 +23,7 @@
   <div id="container">
 
   <s_sidebar_element>
-    <header>
+    <header class="header">
       <h1>성조</h1>
       <nav class="categoryHeader">
         [##_category_##]
@@ -34,7 +34,9 @@
 
   <!-- 홈 화면 시작 -->
   <s_cover_group>
+    <!-- 개별 커버 표시 -->
     <s_cover_rep>
+      <!-- 개별 커버. name 애트리뷰트로 이름을 지정한다. 정의되지 않은 이름의 커버는 사용되지 않는다. -->
       <s_cover name='featured'>
         <div class='featured'>
           <s_cover_item>
@@ -93,6 +95,19 @@
   </s_cover_group>
 
   <!-- 홈 화면 끝 -->
+
+
+
+
+
+  <s_sidebar_element>
+    <!-- 방문자수 -->
+    <div class="counter">
+      <span class="today">오늘 방문자수 : [##_count_today_##]</span>
+      <span class="yesterday">어제 방문자수 : [##_count_yesterday_##]</span>
+      <span class="total">총 방문자수 : [##_count_total_##] </span>
+    </div>
+  </s_sidebar_element>
 
   </div>
 </s_t3>
