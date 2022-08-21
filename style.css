@@ -17,17 +17,17 @@ header {
   height: 75px;
   padding: 1rem;
   color: white;
-  background: rgba(15,76,129);
+  background: rgba(15,76,129, 0.5);
   font-weight: bold;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 /*   background: rgba(15,76,129, 0.8);는  */
-h1, p {
-  margin: 0;
-}
 
+.categoryHeader{
+margin-right: 3rem;
+}
 /* hader 끝 */
 
 main {
@@ -37,10 +37,15 @@ main {
 
 body {
   background: #EEE;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 body, html {
-  height: 200%;
+  width: 100vw;
+  height: 100vh;
 }
 
 * {
