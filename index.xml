@@ -357,7 +357,7 @@
 				<description><![CDATA[]]></description>
 				<type>STRING</type>
 				<option />
-				<default><![CDATA[ © Kakao Corp. ]]></default>
+				<default><![CDATA[ Backend Developer seongjo ]]></default>
 			</variable>
 		</variablegroup>
 	</variables>
