@@ -3,7 +3,7 @@
 
 /* 
 * 1. header
-* 2.
+* 2. menu 버튼
 */
 
 
@@ -25,10 +25,42 @@
 }
 /*   background: rgba(15,76,129, 0.8);는  */
 
+.header a{
+  text-decoration:none;
+  color: inherit;
+}
+
 .categoryHeader{
 margin-right: 3rem;
 }
 /* hader 끝 */
+
+/* menu 정리 시작 */
+.btn_menu{
+  background-image: url(./images/menu_FILL0_wght400_GRAD0_opsz48.png);
+  position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #666;
+    transition: color .2s ease-out;
+    cursor: pointer;
+}
+
+.menu{
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+}
+
+/* menu 정리 끝 */
 
 main {
   padding: 1rem;
